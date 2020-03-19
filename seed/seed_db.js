@@ -72,7 +72,7 @@ console.log("I shall seed");
     });
 
   try {
-    await Promise.all(userPromises);
+    await Promise.all(recordPromises);
     console.log("Records seeded");
   } catch (e) {
     console.error(e);
